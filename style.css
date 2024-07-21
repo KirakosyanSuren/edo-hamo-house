@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container, .header_container {
+    width: 80%;
+    height: 100%;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.cofe {
+    min-height: 300px;
+    width: 30%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hover_div{
+    opacity: 0;
+    background: #00000089;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .4s;
+    color: white;
+    font-size: 28px;
+    flex-direction: column;
+}
+
+.hover_div p {
+    text-align: center;
+}
+
+.hover_div:hover {
+    opacity: 1;
+}
+
+.cofe img {
+    width: 80%;
+    height: 80%;
+    transform: scale(1.2);
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1)
+
+}
+
