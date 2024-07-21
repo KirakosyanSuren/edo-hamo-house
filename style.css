@@ -66,12 +66,12 @@ body {
 }
 
 .hover_div{
-    opacity: 0;
+    display: none;
     background: #00000089;
     position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     align-items: center;
     transition: .4s;
@@ -84,9 +84,9 @@ body {
     text-align: center;
 }
 
-.hover_div:hover {
+/* .hover_div:hover {
     opacity: 1;
-}
+} */
 
 .cofe img {
     width: 80%;
@@ -142,7 +142,7 @@ body {
 
 @media (max-width: 500px) {
     .cofe {
-        width: 75%;
+        width: 90%;
     }
 
     .footer {
@@ -161,9 +161,7 @@ body {
 
 
 @media (max-width: 350px) {
-    .cofe {
-        width: 90%;
-    }
+    
 
     .heading {
         font-size: 20px;
