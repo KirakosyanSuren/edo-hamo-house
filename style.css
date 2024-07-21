@@ -35,6 +35,17 @@ body {
     align-items: center;
 }
 
+.logo {
+    width: 40px;
+    height: 50px;
+    transform: rotate(15deg);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
 .body {
     width: 100%;
     display: flex;
@@ -91,3 +102,36 @@ body {
 
 }
 
+
+@media (max-width: 1200px) {
+    .cofe {
+        width: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    .cofe {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .cofe {
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .cofe {
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .hover_div {
+        font-size: 24px;
+    }
+}
